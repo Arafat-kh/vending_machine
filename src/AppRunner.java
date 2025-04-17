@@ -25,9 +25,7 @@ public class AppRunner {
                 new Pistachios(ActionLetter.G, 130)
         });
 
-        // Используй либо монеты, либо карту:
-        // acceptor = new CoinAcceptor(0);        // ← для монет
-        acceptor = new CardAcceptor(500);         // ← для карты
+        acceptor = new CardAcceptor(500);
     }
 
     public static void run() {

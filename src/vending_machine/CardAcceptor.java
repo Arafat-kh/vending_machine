@@ -16,7 +16,6 @@ public class CardAcceptor implements PaymentAcceptor {
 
     @Override
     public void addAmount(int amount) {
-        // Карта не пополняется вручную
     }
 
     @Override
