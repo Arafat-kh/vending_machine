@@ -1,0 +1,19 @@
+git checkout -b home_work_25
+
+git add src/vending_machine/PaymentAcceptor.java
+git commit -m "Add PaymentAcceptor interface for payment strategies"
+
+git add src/vending_machine/CoinAcceptor.java
+git commit -m "Extract coin payment logic into CoinAcceptor class"
+
+git add src/vending_machine/CardAcceptor.java
+git commit -m "Implement CardAcceptor for card-based payment"
+
+git add commands.txt
+git commit -m "Add commands.txt with detailed Git instructions"
+
+git push origin home_work_25
+
+git checkout master
+git merge home_work_25
+git push origin master
