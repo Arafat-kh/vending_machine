@@ -1,4 +1,4 @@
-package model;
+package vending_machine;
 
 public class CoinAcceptor {
     private int amount;
